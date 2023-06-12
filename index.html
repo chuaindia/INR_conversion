@@ -10,11 +10,19 @@
 <body>
 
 <div class="container">
-    <h1>USD to INR currency converter </h1>
-    <p>Use this simple javascript application to convert value from USD to INR. Enter the value in USD to get the result in INR</p>
-    <h2 id="inr"></h2>
-    <input type="number" id="usd" placeholder="Enter USD">
-    <button class="btn" onclick="convertToInr()">Convert to INR</button>
+    <h1>Currency Converter</h1>
+    <p>Convert values from one currency to INR. Enter the value in the input field below and click the   button to get the result in Indian Currency.</p>
+    <h2 id="result"></h2>
+    <input type="number" id="amount" placeholder="Enter amount">
+    <select id="currency">
+        <option value="USD">USD</option>
+        <option value="EUR">EUR</option>
+        <option value="GBP">GBP</option>
+        <option value="KS">SHILLING</option>
+        <option value="TAKA">TAKA</option>
+        <!-- Add more currency options here -->
+    </select>
+    <button class="btn" onclick="convertCurrency()">Convert</button>
 </div>
 
 <script src="app.js"></script>
