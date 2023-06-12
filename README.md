@@ -1,3 +1,5 @@
 # INR_conversion
 
-This is a simple app which convert different currencies in Indian currency INR.
+
+This is a simple app which convert different countries currencies into Indian Rupee (INR) with simple javascript function.
+
