@@ -6,6 +6,7 @@ function convertCurrency() {
     const conversionRates = {
         USD: 82.5,
         EUR: 97.8,
+        CAD: 60.19,
         GBP: 113.2,
         KES: 0.59,
         TAKA: 0.76,
