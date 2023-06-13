@@ -7,7 +7,7 @@ function convertCurrency() {
         USD: 82.5,
         EUR: 97.8,
         GBP: 113.2,
-        KS: 0.59,
+        KES: 0.59,
         TAKA: 0.76,
         // Add more currencies and their conversion rates here
     };
