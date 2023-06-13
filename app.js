@@ -8,6 +8,10 @@ function convertCurrency() {
         EUR: 97.8,
         CAD: 60.19,
         GBP: 113.2,
+        RUB: 1.28,
+        CHF: 88.79,
+        GHS: 9.16,
+        AUD: 55.55,
         KES: 0.59,
         TAKA: 0.76,
         // Add more currencies and their conversion rates here
@@ -19,3 +23,4 @@ function convertCurrency() {
     // Update the result on the HTML element with id 'result'
     document.getElementById('result').innerText = `${result} INR`;
 }
+
